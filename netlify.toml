@@ -1,5 +1,5 @@
 [build]
-command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || true && git clone https://github.com/ppeetteerrs/obsidian-zola.git __site && __site/run.sh"
+command = "rm -rf __obsidian __site && mkdir __obsidian && mv * __obsidian || true && git clone https://github.com/FinstaTrixta4/genesis __site && __site/run.sh"
 publish = "public"
 
 [build.environment]
@@ -7,7 +7,7 @@ publish = "public"
 LANDING_PAGE = "Home.md"
 PYTHON_VERSION = "3.8"
 # (REQUIRED) Site repo URL
-REPO_URL = ""
+REPO_URL = "https://github.com/FinstaTrixta4/genesis"
 # (Optional) Site title in navbar
 SITE_TITLE = "A Mind Palace 🏰"
 # (Optional) Site title in browser tab (leave blank to use SITE_TITLE)
